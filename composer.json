@@ -34,10 +34,10 @@
     },
     "require": {
         "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
-        "laminas-api-tools/api-tools-api-problem": "^1.7.0",
-        "laminas-api-tools/api-tools-content-negotiation": "^1.9.0",
-        "laminas-api-tools/api-tools-hal": "^1.11",
-        "laminas-api-tools/api-tools-mvc-auth": "^1.9",
+        "laminas-api-tools/api-tools-api-problem": "1.7.x-dev",
+        "laminas-api-tools/api-tools-content-negotiation": "1.9.x-dev",
+        "laminas-api-tools/api-tools-hal": "1.11.x-dev",
+        "laminas-api-tools/api-tools-mvc-auth": "1.9.x-dev",
         "laminas/laminas-eventmanager": "^3.2",
         "laminas/laminas-mvc": "^2.7.14 || ^3.0.2",
         "laminas/laminas-paginator": "^2.7",
@@ -80,13 +80,7 @@
     },
     "replace": {
         "zfcampus/zf-rest": "^1.5.0"
-    },
-    "provide": {
-        "laminas-api-tools/api-tools-api-problem": "1.7.x-dev",
-        "laminas-api-tools/api-tools-content-negotiation": "1.9.x-dev",
-        "laminas-api-tools/api-tools-hal": "1.11.x-dev",
-        "laminas-api-tools/api-tools-mvc-auth": "1.9.x-dev"
-    },    
+    },   
     "repositories": [
       {
         "type": "git",
