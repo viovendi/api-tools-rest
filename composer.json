@@ -38,6 +38,8 @@
         "laminas-api-tools/api-tools-content-negotiation": "1.9.x-dev",
         "laminas-api-tools/api-tools-hal": "1.11.x-dev",
         "laminas-api-tools/api-tools-mvc-auth": "1.9.x-dev",
+        "laminas-api-tools/api-tools-oauth2": "1.10.x-dev",
+        "laminas/laminas-crypt": "4.1.x-dev",
         "laminas/laminas-eventmanager": "^3.2",
         "laminas/laminas-mvc": "^2.7.14 || ^3.0.2",
         "laminas/laminas-paginator": "^2.7",
@@ -53,7 +55,7 @@
         "laminas/laminas-validator": "^2.8.1",
         "laminas/laminas-view": "^2.11.3",
         "phpspec/prophecy-phpunit": "^2.0",
-        "phpunit/phpunit": "^9.5.10",
+        "phpunit/phpunit": "^9.6.33",
         "psalm/plugin-phpunit": "^0.16.1",
         "vimeo/psalm": "^4.7"
     },
@@ -97,6 +99,14 @@
       {
         "type": "git",
         "url": "https://github.com/viovendi/api-tools-mvc-auth"
+      },
+      {
+        "type": "git",
+        "url": "https://github.com/viovendi/api-tools-oauth2"
+      },
+      {
+        "type": "git",
+        "url": "https://github.com/viovendi/laminas-crypt"
       }
     ]
 }
